@@ -14,9 +14,10 @@ body{
 
 .cabecalho__menu{
    
-    display: flex;
-    justify-content: center;
-    gap: 80px;
+    align-items: end;
+    flex-direction: column;
+    justify-content: end;
+    gap: auto;
    
 }
 .cabecalho__menu__link{
@@ -126,7 +127,7 @@ body{
     padding: 2% 0% 0% 15%;
  }
 
- @media (max-width: 1200ox){
+ @media (max-width: 1200px){
     .cabecalho{
         padding: 10%;
     }
